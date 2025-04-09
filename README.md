@@ -69,9 +69,10 @@
     ```markdown
     - In your Azure Machine Learning workspace, navigate to the "Data" section (under "Assets").
     - Click "+ Create."
-    - Choose the data source type (e.g., "From local file," "From Azure Blob storage," etc.).
+    - Choose the data source type (e.g., "From local file," "From Azure Blob storage," "**web files- like Github**".).
     - Follow the prompts to select your data file(s) and configure the dataset (e.g., data type, headers).
     - Click "Create."
+    - In Explore tab - preview and profile
     ```
 
 5.  **Create a Pipeline in Azure Machine Learning Designer:**
@@ -79,15 +80,17 @@
     - Navigate to the "Designer" section in your Azure Machine Learning workspace.
     - Click "+ New."
     - Give your pipeline a name (e.g., "clustering-training-pipeline").
+    
     ```
 
 6.  **Apply Data Transformations to Cluster Observations:**
     ```markdown
-    - In the Designer canvas, drag and drop your created dataset.
+    In the Designer canvas, drag and drop your created dataset, right-click, and visualize output to see a distribution of columns by histograms.
     - Use the search bar to find and add data transformation modules (under "Data Transformation"). Common transformations for clustering might include:
-        - "Select Columns in Dataset" to choose relevant features.
+        - "Select Columns in Dataset" to choose relevant features like edit columns **by name**/by rules.
         - "Clean Missing Data" to handle missing values.
-        - "Normalize Data" to scale numerical features.
+        - "Normalize Data" to scale numerical features - edit columns and select the transformation method - **MinMax**, Z-score, Logistic, Tanh, LogNormal.
+      - Right click on Normalize Data and visualize before and after experiment
     - Connect the output ports of the dataset to the input ports of the transformation modules, and chain the transformations as needed.
     ```
 
@@ -98,7 +101,7 @@
     - Configure the parameters of the clustering algorithm (e.g., "Number of centroids").
     ```
 
-8.  **Run the Training Pipeline:**
+8.  **Run the Training Pipeline as new Experiment:**
     ```markdown
     - Click "Submit" at the top of the Designer canvas.
     - Choose an experiment name (e.g., "clustering-experiment").
