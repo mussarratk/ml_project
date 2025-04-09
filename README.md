@@ -73,6 +73,7 @@
     - Follow the prompts to select your data file(s) and configure the dataset (e.g., data type, headers).
     - Click "Create."
     - In Explore tab - preview and profile
+    - in Consume tab - import to juypter nb - https://www.coursera.org/learn/mlops-aws-azure-duke/lecture/6oqw4/exploring-open-datasets-sdk
     ```
 
 5.  **Create a Pipeline in Azure Machine Learning Designer:**
