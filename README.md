@@ -203,5 +203,6 @@
 - **Authentication:** Securely manage and share the authentication key for your endpoint.
 - **ACI Limitations:** Remember that ACI is best suited for development and testing or low-traffic production scenarios. For high-scale, production deployments with strict latency and security requirements, consider deploying to Azure Kubernetes Service (AKS) as you initially mentioned. The process for deploying to AKS from the Designer is similar to deploying to ACI, but you would select an AKS cluster as your compute target.
 
+![image](https://github.com/user-attachments/assets/b8c07f3d-d36b-456d-acc2-3fcc294a2b16)
 
 
