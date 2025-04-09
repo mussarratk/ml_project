@@ -10,7 +10,9 @@
 * Assignment
   ## Cheatsheets check
   * Drive/github
-  * 
+ 
+  
+![image](https://github.com/user-attachments/assets/b8c07f3d-d36b-456d-acc2-3fcc294a2b16)
 # Azure ml_project- In Designer
 ### Designer - Drag and drop interface from preparing and deploying models
 ## Deploying to Azure Container Instance (ACI) for Dev/Test and AKS for Production.
@@ -202,6 +204,11 @@
 - **Input Data Schema:** Ensure that the input data you send to the endpoint in your notebook (and from client applications) matches the expected schema of your inference pipeline.
 - **Authentication:** Securely manage and share the authentication key for your endpoint.
 - **ACI Limitations:** Remember that ACI is best suited for development and testing or low-traffic production scenarios. For high-scale, production deployments with strict latency and security requirements, consider deploying to Azure Kubernetes Service (AKS) as you initially mentioned. The process for deploying to AKS from the Designer is similar to deploying to ACI, but you would select an AKS cluster as your compute target.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 ![image](https://github.com/user-attachments/assets/b8c07f3d-d36b-456d-acc2-3fcc294a2b16)
 
