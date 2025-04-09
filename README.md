@@ -12,6 +12,7 @@
   * Drive/github
   * 
 # Azure ml_project- In Designer
+## Deploying to Azure Container Instance (ACI) for Dev/Test and AKS for Production.
 # Step-by-Step Process for Creating and Deploying a Clustering Predictive Service in Azure Machine Learning
 
 <details>
@@ -201,11 +202,5 @@
 - **Authentication:** Securely manage and share the authentication key for your endpoint.
 - **ACI Limitations:** Remember that ACI is best suited for development and testing or low-traffic production scenarios. For high-scale, production deployments with strict latency and security requirements, consider deploying to Azure Kubernetes Service (AKS) as you initially mentioned. The process for deploying to AKS from the Designer is similar to deploying to ACI, but you would select an AKS cluster as your compute target.
 
-    ```
 
-</details>
 
-**Important Considerations:**
-
-```markdown
-## Deploying to Azure Container Instance (ACI) for Dev/Test and AKS for Production.
