@@ -17,6 +17,8 @@
 # Azure AutoML Clustering Project- In ML Workspace - Designer
 ### Designer - Drag and drop interface from preparing and deploying models
 ## Deploying to Azure Container Instance (ACI) for Dev/Test and AKS for Production.
+- A bike rental company can use historic data to train a model that predicts daily rental demand in order to make sure sufficient staff and cycles are available.
+
 # Step-by-Step Process for Creating and Deploying a Clustering Predictive Service in Azure Machine Learning
 
 <details>
