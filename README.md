@@ -1,4 +1,4 @@
-# ml_project- Designer
+# # Azure AutoML Clustering Project- In ML Workspace - Designer
 * datascience-dp-100
 * ml-batch
 * autoML
@@ -10,12 +10,11 @@
 * Assignment
   ## Cheatsheets check
   * Drive/github
- 
   
 ![image](https://github.com/user-attachments/assets/b8c07f3d-d36b-456d-acc2-3fcc294a2b16)
 ![image](https://github.com/user-attachments/assets/5a4660ee-2987-4ea0-b444-8ee5f5d4d017)
 
-# Azure ml_project- In Designer
+# Azure AutoML Clustering Project- In ML Workspace - Designer
 ### Designer - Drag and drop interface from preparing and deploying models
 ## Deploying to Azure Container Instance (ACI) for Dev/Test and AKS for Production.
 # Step-by-Step Process for Creating and Deploying a Clustering Predictive Service in Azure Machine Learning
